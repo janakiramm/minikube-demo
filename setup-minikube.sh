@@ -3,3 +3,4 @@ chmod +x minikube
 sudo mv minikube /usr/local/bin/
 
 minikube start
+kubectl config use-context minikube
