@@ -20,7 +20,7 @@ sh setup-minikube.sh
 * To deploy WordPress on Minikube run the following command
 
 ```
-sh ./WordPress/deploy.sh
+cd WordPress && sh ./deploy.sh
 
 ````
 
